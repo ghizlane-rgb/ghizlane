@@ -2,4 +2,7 @@
 enableCORS = false
 
 [global]
-environment = { XGBOOST_DISABLE_GPU = "1" }
+environment = { 
+  XGBOOST_DISABLE_GPU = "1",
+  XGBOOST_USE_CPU = "1"
+}
