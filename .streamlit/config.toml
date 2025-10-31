@@ -1,0 +1,5 @@
+[server]
+enableCORS = false
+
+[global]
+environment = { XGBOOST_DISABLE_GPU = "1" }
